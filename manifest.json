@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "書籍管理器",
+    "version": "1.0",
+    "description": "簡單的書籍管理Chrome擴充功能",
+    "permissions": ["storage", "activeTab"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon32.png",
+        "128": "images/icon32.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon32.png",
+      "128": "images/icon32.png"
+    }
+
+  }
+  
